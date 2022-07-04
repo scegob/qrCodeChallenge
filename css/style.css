@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+.container {
+    color:hsl(220, 15%, 55%);
+    max-width: 360px;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: hsl(0, 0%, 100%);
+    padding: 18px;
+    border-radius: 17px;
+    margin: 0 1em;
+    text-align: center;
+
+}
+
+.card img {
+    /* So the img does not overflow*/
+    width: 100%;
+    border-radius: 12px;
+}
+
+body {
+    /* Google fonts*/
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400, 700;
+    /* To center text */
+    text-align: center;
+    background-color:  hsl(212, 45%, 89%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    Font-size: 15px;
+}
+
+.text {
+    padding: 22px 10px;
+}
+
+.text h1 {
+    color:hsl(218, 44%, 22%);
+    padding-bottom: 20px;
+}
+
+.text p {
+    color:hsl(220, 15%, 55%);
+}
+
+.colors {
+    color:hsl(0, 0%, 100%);
+    color:hsl(212, 45%, 89%);
+}
+
+.qr-code {
+    border-radius: 5%;
+}
