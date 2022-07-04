@@ -15,18 +15,6 @@ Author
 Acknowledgments
 Note: Delete this note and update the table of contents based on what sections you keep.
 
-Overview
-Screenshot
-
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like FireShot to take the screenshot. FireShot has a free option, so you don't need to purchase it.
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.
-
 Links
 Solution URL: https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H/hub/qr-code-challenge-6rH2gttJ3P/solutions
 Live Site URL: https://scegob.github.io/qrCodeChallenge/
@@ -42,13 +30,22 @@ Use this section to recap over some of your major learnings while working throug
 
 To see how you can add code snippets, see below:
 
-<h1>Some HTML code I'm proud of</h1>
-.proud-of-this-css {
-  color: papayawhip;
+body {
+    /* Google fonts*/
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400, 700;
+    /* To center text */
+    text-align: center;
+    background-color:  hsl(212, 45%, 89%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    Font-size: 15px;
 }
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
+
+css is fun to learn it feels as if you are working on a canvas.  
+
 If you want more help with writing markdown, we'd recommend checking out The Markdown Guide to learn more.
 
 Note: Delete this note and the content within this section and replace with your own learnings.
@@ -59,7 +56,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 Note: Delete this note and the content within this section and replace with your own plans for continued development.
 
 Useful resources
-Example resource 1 - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+Example resource 1 - https://www.youtube.com/watch?v=5BBYPntB-GY This helped me for to figure out what to do when I was stuck. The I was trying to figure out how to get the white background and That is when I was able to make nested div elements that helped with  reason. I really liked this pattern and will use it going forward.
 Example resource 2 - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
 Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.
 
